@@ -3,7 +3,7 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>1.466</version><!-- which version of Jenkins is this plugin built against? -->
+    <version>1.472</version><!-- which version of Jenkins is this plugin built against? -->
   </parent>
 
   <groupId>com.syncron.jenkins-ci.plugins</groupId>
@@ -25,4 +25,12 @@
       <url>http://repo.jenkins-ci.org/public/</url>
     </pluginRepository>
   </pluginRepositories>
+  <dependencies>
+      <dependency>
+         <groupId>org.jenkins-ci.plugins</groupId>
+         <artifactId>dashboard-view</artifactId>
+         <version>2.4</version>
+         <optional>true</optional>
+      </dependency>
+  </dependencies>
 </project>
