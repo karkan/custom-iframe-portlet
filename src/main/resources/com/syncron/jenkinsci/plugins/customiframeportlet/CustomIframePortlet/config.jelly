@@ -26,8 +26,8 @@ THE SOFTWARE.
   <f:entry title="${%Display name}">
     <f:textbox name="portlet.name" field="name" default="${descriptor.getDisplayName()}" />
   </f:entry>
-  <f:entry title="${%Url}" help="/plugin/custom-iframe-portlet/help/help-configUrl.html">
-    <f:textbox name="portlet.url" field="url" />
+  <f:entry title="${%Url to be fetched}" help="/plugin/custom-iframe-portlet/help/help-configUrl.html">
+    <f:textbox name="portlet.urlToBeFetched" field="urlToBeFetched" />
   </f:entry>
   <f:entry title="${%Surrounding div style}" help="/plugin/custom-iframe-portlet/help/help-configDivStyle.html">
     <f:textbox name="portlet.divStyle" field="divStyle" default="width:100%;height:1000px;"/>
